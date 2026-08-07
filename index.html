@@ -103,7 +103,8 @@
 
   /* ── GOVT SUMMARY CARDS ── */
   .govt-cards {
-    display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    /* display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));*/
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(min-content, 20%))
     gap: 14px; padding: 20px; border-bottom: 1px solid var(--border);
   }
   .g-card {
